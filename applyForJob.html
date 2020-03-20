@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ApplyForJob</title>
+</head>
+<body>
+
+<h1>Apply for Job</h1>
+
+<form>
+
+<!-- Element 1 - Personal Details Section -->
+
+<!-- salutation -->
+<!-- First Name -->
+<!-- Last Name -->
+    <div class="form-row">
+        <div class="col">
+            <label for = "firstName">Firstname</label>
+            <input type="text" class="form-control" id = "firstName" placeholder="First name">
+        </div>
+        <div class="col">
+            <label for = "LastName">Surname</label>
+            <input type="text" class="form-control" id = "lastName" placeholder="Last name">
+        </div>
+    </div>
+    <br>
+
+<!-- Address Line 1 -->
+<!-- Address Line 2 -->
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-group">
+        <label for="inputAddress2">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <br>
+<!-- City -->
+<!-- Post code -->
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputZip">EirCode</label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+    </div>
+    <br>
+
+<!-- Email  -->
+<!-- Phone -->
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputPassword4">Password</label>
+            <input type="tel" class="form-control" id="inputPassword4" placeholder="Tel Number">
+        </div>
+    </div>
+    <br>
+
+<!-- Element 2 - Culture Fit -->
+    <label>Culture Fit Questions</label><br>
+    <div>
+    <select class="custom-select">
+        <option selected>Work style preference, Q1</option>
+        <option value="text">Culture Statement a.1</option>
+        <option value="text">culture Statement a.2</option>
+    </select>
+    <br>
+
+    <select class="custom-select">
+        <option selected>Work style preference, Q2</option>
+        <option value="1">Culture Statement b.1</option>
+        <option value="2">Culture Statement b.2</option>
+        <option value="3">Culture Statement b.3</option>
+    </select>
+    <br>
+
+    <select class="custom-select">
+        <option selected>Work style preference, Q3</option>
+        <option value="1">Culture Statement c.1</option>
+        <option value="2">Culture Statement c.2</option>
+        <option value="3">Culture Statement c.3</option>
+    </select>
+    <br>
+    </div>
+    <br>
+
+<!-- Element 3 - Select your Skills -->
+    <label>Select Skills</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="skillOption1A" value="html">
+        <label class="form-check-label" for="skillOption1A">HTML</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="skillOption2A" value="css">
+        <label class="form-check-label" for="skillOption2A">CSS</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="skillOption3A" value="3dsmax" disabled>
+        <label class="form-check-label" for="skillOption3A">3DSMax (disabled)</label>
+    </div>
+    <br>
+
+<!-- Element 4 - Select Experience -->
+    <label>Select Your Expereince Level</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="experience1A" value="expereince1">
+        <label class="form-check-label" for="experience1A"><1 year</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="experience2A" value="experience2">
+        <label class="form-check-label" for="experience2A">>1 year <3 years</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="experience3A" value="option3" disabled>
+        <label class="form-check-label" for="experience3A">3+ years</label>
+    </div>
+    <br>
+
+<!-- Element 5 - cover Letter -->
+    <div class="form-group">
+    <label for="coverLetter">Cover Letter</label>
+        <textarea class="form-control" id="coverLetter" rows="8"></textarea>
+    </div>
+    <br>
+
+
+<!-- Element 6 - Upload CV -->
+    <div class="form-group">
+        <label for="uploadCV">Upload CV</label>
+        <input type="file" class="form-control-file" id="uploadCV">
+    </div>
+    <br>
+
+
+<!-- Element 7 - Submit Application -->
+    <div>
+        <button type="submit" class="btn btn-primary">Submit Application</button>
+    </div>
+    <br>
+
+</form>
+
+</body>
+</html>
